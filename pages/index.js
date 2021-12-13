@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from "next/link"
+
 
 export default function Home() {
   return (
@@ -52,6 +54,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+      <Link scroll={false} href="/" >TEST LINK</Link>
+
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
